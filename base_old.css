@@ -1,0 +1,45 @@
+BODY    { background: #000000 url();  
+		background-repeat: no-repeat; 
+		background-attachment: fixed;
+		background-position: center center}
+A:link    { color: red; background-color: #dddddd}
+A:active  { color: green; background-color: #dddddd}
+A:visited { color: blue; background-color: #dddddd}		
+
+
+.conflict	{background-color: ff0000}
+.warning	{background-color: cc9900}
+.caution	{background-color: ccff66}
+.noconflict	{}
+
+.Zheader		{font-size: large; color: green}
+.Zbody		{font-size: large; color: green}
+.Zfooter		{font-size: x-small; color: black}
+.Zmain_menu	{background-color: ffe87c}
+.Zkey		{background-color: 348781}
+.Zmainform	{background-color: 387C44}
+.Zsecform	{background-color: 33ffcc}
+.Zdatareport	{background-color: 8BB381}
+.Zfileupdate	{background-color: cc99ff}
+.Zrequested	{background-color: 9999ff}
+.Zseated	{background-color: cc99cc}
+.Zlocks		{background-color: 99cc99}
+.Zschedconflict	{background-color: cc6666}
+.Zscheduling	{background-color: 0060ff}
+.Zcaution	{background-color: ccff66}
+.Zwarning	{background-color: cc9900}
+
+@media screen {
+body.panel {background: URL(../images/bg_parchment.jpg)}
+.public {background-color: #FFCC66}
+.reserved {background-color: #6666CC}
+.free {background-color: #999999}
+body.panel A {background-color: transparent}
+}
+
+@media print {
+@page {size: landscape}
+.Grid {width: 100%; overflow: visible}
+body.panel A {background-color: transparent; text-decoration: none; color: white}
+.MatrixLink {display: none}
+}
