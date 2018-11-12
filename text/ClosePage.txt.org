@@ -1,0 +1,2 @@
+<font size=4 color='blue'>This page is pulled from the ClosePage.txt file <br><Br><br>
+To change this page, edit the text file<br></font>

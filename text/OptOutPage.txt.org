@@ -1,0 +1,3 @@
+Opt Out
+
+Place text here telling the panelist we are sorry that they are opting out, and give them a method to change their mind at some future time
