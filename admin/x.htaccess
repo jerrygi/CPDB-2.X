@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Area"
+require valid-user
+AuthUserFile "/home/rustycon/.htpasswds/public_html/cpdb/admin/passwd"

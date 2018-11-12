@@ -1,0 +1,31 @@
+BODY    { background: #ffffff url();  
+		background-repeat: no-repeat; 
+		background-attachment: fixed;
+		background-position: center center}
+A:link    { color: red; background-color: #dddddd}
+A:active  { color: green; background-color: #dddddd}
+A:visited { color: blue; background-color: #dddddd}		
+
+thead { background: #cccccc; }
+
+.sortlink A:link {color: blue; background-color: #cccccc; text-decoration: none}
+
+
+.header		{font-size: large; color: green}
+.body		{font-size: large; color: green}
+.footer		{font-size: x-small; color: black}
+.main_menu	{background-color: 66ccff}
+.key		{background-color: 348781}
+.mainform	{background-color: 6699ff}
+.secform	{background-color: 33ffcc}
+.datareport	{background-color: 8BB381}
+.fileupdate	{background-color: cc99ff}
+.requested	{background-color: 9999ff}
+.seated		{background-color: cc99cc}
+.locks		{background-color: 99cc99}
+.schedconflict	{background-color: cc6666}
+.scheduling	{background-color: 0060ff}
+.conflict	{background-color: ff0000}
+.warning	{background-color: ff9900}
+.caution	{background-color: ffff00}
+.noconflict	{}
